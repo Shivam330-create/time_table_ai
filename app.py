@@ -18,7 +18,7 @@ st.markdown("Execute Google Colab constraint satisfaction algorithms directly in
 PROJECT_ROOT = Path("./timetable_project")
 PROJECT_ROOT.mkdir(parents=True, exist_ok=True)
 
-# Encapsulated core assets mapped cleanly inside a singular formatted system string
+# Fixed Embedded base64 binary block string - wrapped perfectly to prevent syntax error
 SOURCE_ARCHIVE_B64 = (
     "UEsDBBQAAAAIAJxLUl09ZCKeahAAAN9GAAATAAAAY29yZS9jb25zdHJhaW50cy5wedUca2/bRvK7f8XGAS7SVdJFTly0Rh3AdZO6"
     "QNoGsXv5IAjEilpZPFOkQFJOdIb/+83MvrlLWW7SXssPicLdnZ2d186LOTw8PEjLSvwrLYu6qXhWNPVovT04L1frSixFUWe3gtlB"
@@ -32,7 +32,7 @@ SOURCE_ARCHIVE_B64 = (
     "QqcdsBywSspFstyAHCeV4HOUBRiV8o90AoGv+1GU9awaSDyZmtftXWD0+YEZfcp+4A1nhgE1yaUGxbQeOvN7c74FxRFVVs4HTEkH"
     "kRexZ+WCSRm3UqCFqwa+IHKOKevhmn4ndJLVnbClmD8eMsrpTsAk4PvAVadDWJK+AKyWul8rYRDzgBbLclO1IYN09S1nyD4QUgOG"
     "eKCpcGQra8Sq7vV9kYL5Wr+URRpdi6YnwfS9qdmCFQAUhnwQSpLgKtuIA28E6IfAAZUR/PSGJFX1qPyXN4GoWfCV0HPMi2CaPoC2"
-    "MHQCM90/RJrMeJMu9RJj8/Sp1ZtwoWbaaWD+zFL9Ti72Vj9lw+GQXbw8Ye8R4XO+5mnWbPFtm8Z0IryfFKohsdWkUaqhfKfnjkAr"
+    "MHQCM90/RJrMeJMu9RJj8/Sp1ZtwoWbaaWD+zFL9Ti72Vj9lw+GQXbw8Ye8R4XO+mnWbPFtm8Z0IryfFKohsdWkUaqhfKfnjkAr"
     "RXHdRBbhEyj2V6dsGx1pLMOIr9eimPeis/BZHE4uXrKhf66p/OezO8OF+2esl+J1d+ehft9nhztAZ+A+lCWrV+gmkJkh3+PZnT6v"
     "Bm3Oze7apHiega0LrHoBFLup7MwVHCUDD+zsQ3nv27k5K6f0oDi7O8WPF8avtWrDeWz5jtzW7Woqy2va7uB/lOKKW1UkOEFA4UBOJ"
     "kvLdn8vvY81vPNWU4al203BhGOerGIzt4k0N6jTfoN8MXKJVVShWj2BQ+43IrU1ziftXIayUkz+BtnjwzyNtTPa/BidZWc2zW4h/"
@@ -74,7 +74,7 @@ SOURCE_ARCHIVE_B64 = (
     "DGOLLRHMqb0YWNLbzjE02dq+GBMljKIniBTl245oV9q7nQhu1w4iSdYw1WslI/L128SpacerufEIdouZL8eI3GbCoz8sU5L5hoNJ"
     "dPc5Uvs0+NWTZKn+9ulcf8bTd7d1YqInp93f33Tt92Kk+v5lN39wKrfi/4hvFLq2ezkyF5r7PQfFZ8HeXYnm/T9k6ULjeKSCWvSQ"
     "P2a1YLOs4NXW+a73AfH2XEdZQQ/bVkID0Bnatno9Tu3HnxTJhO0Xp94HoJEO0t1NMLHQ7ym7xADLFB0a2aSAX43HnFfbCOOqGCLW"
-    "fhe/8z3mdOAiG733x8TaB42HffP7sZAflu6FRKvb5rT9Ce4eSDhy+vXI7e8792M81eunjESt/6cN1e+HUuN2/HXYjC/bmYfKMEui"
+    "fhe/8z3mdOAiG733x8TaB42HffS7sZAflu6FRKvb5rT9Ce4eSDhy+vXI7e8792M81eunjESt/6cN1e+HUuN2/HXYjC/bmYfKMEui"
     "DWvR+EfOfSI5pW4h3MzAiFyh8bBbF3bDBZNZd8fXLKYgO+Y/BXbIbh5wlsUnniqZ0GrqNfV0RUczr6XL/CbShc1a+4gPPjvlWOKu"
     "vHlqSFrRHVsJ9LlAnIhPTHasxV13ty9u1u6Ji3TDzfbshGvdMV5X2Z6nbbt7VxWEyv8DUEsDBBQAAAAIAIRLUl0lVnmPZA0AAKkz"
     "AAAOAAAAY29yZS9tb2RlbHMucHntW92P2zYSf9+/gnCAq514fZu0uMMZVdA0aYEAbRMki96DYQiyTO+qK0uuSDnZW+z/fvNBSqRI"
@@ -105,4 +105,4 @@ SOURCE_ARCHIVE_B64 = (
     "J6HdTr+n+QHSavOlUDCDwZ7bqV3RQPLqy20nKpnMIrraTtODMtqwpuI7mkXGE8i9myJ/bIty6wgDauje9tgDhAjZXE68B2kaMeJ5"
     "7+WjkaLUj7qQhQXqKLDoh3Kij7WxnO3RXA9SqLF0nm6wdwwSqgH0k/mUpz6UVZ+UooIHzyAItGz2kB2tJ4SqcpzTRFoMFofujzg7"
     "tXpQxted/GYjPJ4gfZ6DOash3XCliK1x0s/ExwJquSBqGCLL+ouE6MrbBrBR+7Wd+wMv2FKHjeEU+t7iCgo9Fm4O0TaapXoycWF9"
-    "VqmqGw0Sg7npYtq/mosbeZuU2X6zzQSErBfWK64ER8SI6DtgubpYE4kwiduGwt2rPF1kBW/7phgUN9ryumKaVTk81+JFwoRC+s8Q"
+    "VqmqGw0Sg7npYtq/mosbeZuU2X6zzQSErBfWK64ER8SI6DtgubpYE4kwiduGwt2rPF1kBW/7phgUN9ryumKaVTk81+JFwoRC+s8Q")
